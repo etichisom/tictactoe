@@ -102,6 +102,7 @@ class Board extends StatelessWidget {
    if(end){
      Future.delayed(Duration(seconds: 1),(){
        gamebloc.setgame(length);
+       gamebloc.setlastmove(Player.o);
      });
    }
   }

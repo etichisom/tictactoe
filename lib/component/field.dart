@@ -100,7 +100,7 @@ class Field extends StatelessWidget {
 
  Widget wid() {
     if(value==Player.x){
-      return SvgPicture.asset('assest/x.svg');
+      return SvgPicture.asset('assest/X.svg');
     }else if(value==Player.o){
       return SvgPicture.asset('assest/O.svg');
     }else{
